@@ -1,0 +1,90 @@
+body {
+    background-color: #ffe4fd;
+  }
+
+.heroimg {
+    background-image: url(618.JPG);
+    background-size: cover;
+}
+
+.text-spring{
+  color:#fff
+
+}
+
+.btn-spring {
+    background-color: #3addf6;
+    color: #fff;
+}
+.btn-spring:hover {
+    background-color: #23aec3;
+    color: #fff;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #3addf6;
+    border-color: #3addf6;
+  }
+  .btn-primary:hover, .btn-primary:active:hover{
+    color: #fff;
+    background-color: #23aec3;
+    border-color: #23aec3;
+  }
+
+.card {
+    transition: all .4s; /* 動畫漸變 */
+}
+
+.card:hover {
+    box-shadow: 3px 3px 3px #cdcdcd; /* 往右移3px、下移3px、模糊3px、陰影的顏色 */
+    transform: translate(-3px, -3px) rotate(-1deg); /* 往左移3px、上移3px、逆時針旋轉1度 */
+}
+
+
+.marquee-text {
+  position: fixed;
+  top: 70px;/* 與功能列的距離 */
+  width: 100%;
+  color: rgb(255, 112, 186);/* 文字顏色 */
+  line-height: 25px;/* 要大於等於font-size的數值 */
+  font-size: 25px;/* 字體大小 */
+  z-index: 1030;
+  /* background-color: rgba(255, 255, 255, 0.75); *//* 背景色 */
+}
+
+.img-reduced {
+  max-width: 80%;
+}
+
+
+html, body {
+  height: 100%;  /* 確保html和body元素高度為100% */
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  display: block; 
+}
+
+.round-button {
+  position: fixed;
+  bottom: 50px; /* 與底部的距離 */
+  right: 50px; /* 與右側的距離 */
+  width: 80px; /* 按鈕的寬度 */
+  height: 80px; /* 按鈕的高度 */
+  background-color: #f24fc1; /* 按鈕背景顏色 */
+  color: #fff; /* 文字顏色 */
+  border: none; /* 去掉邊框 */
+  border-radius: 50%; /* 將按鈕設為圓形 */
+  font-size: 14px;
+  cursor: pointer;
+  z-index: 999; /* 確保按鈕在其他內容上方 */
+  text-align: center; /* 將文字置中對齊 */
+  line-height: 50px; /* 垂直居中，與按鈕高度相同 */
+}
+
+.round-button:hover {
+  background-color: #c33298; /* 滑鼠懸停時的背景顏色 */
+}

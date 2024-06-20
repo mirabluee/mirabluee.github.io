@@ -1,0 +1,85 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe4fd;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 100px auto 20px; /* 調整上邊距為 50px，其他方向保持不變 */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 80px;
+  }
+  
+  .btn-primary{
+    background-color: #3addf6;
+    color: #fff;
+    border: none;
+  }
+
+  .btn-primary:hover{
+    background-color: #23aec3;
+    color: #fff;
+    border: none;
+  }
+
+  .item {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .item img {
+    max-width: 100%; /* 圖片最大寬度為其父元素的寬度 */
+    max-height: 200px; /* 圖片最大高度為 200 像素 */
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .btn-cart {
+    background-color: #3addf6; /* 設置按鈕的背景顏色為橙色 */
+    color: #FFFFFF; /* 設置按鈕文字的顏色為白色 */
+    border: none; /* 移除按鈕的邊框 */
+    padding: 10px 20px; /* 設置按鈕的內邊距 */
+    text-decoration: none; /* 移除按鈕的文字下劃線 */
+    border-radius: 5px; /* 設置按鈕的圓角 */
+    transition: background-color 0.3s ease; /* 添加背景顏色變化的過渡效果 */
+  }
+  
+  .btn-cart:hover {
+    background-color: #23aec3; /* 滑鼠懸停時按鈕背景顏色的變化 */
+  }
+
+  .container2 {
+    margin-left: 4%;
+    margin-right: auto;
+    display: block; 
+  }
+  
+  .round-button {
+    position: fixed;
+    bottom: 50px; /* 與底部的距離 */
+    right: 50px; /* 與右側的距離 */
+    width: 80px; /* 按鈕的寬度 */
+    height: 80px; /* 按鈕的高度 */
+    background-color: #f24fc1; /* 按鈕背景顏色 */
+    color: #fff; /* 文字顏色 */
+    border: none; /* 去掉邊框 */
+    border-radius: 50%; /* 將按鈕設為圓形 */
+    font-size: 14px;
+    cursor: pointer;
+    z-index: 999; /* 確保按鈕在其他內容上方 */
+    text-align: center; /* 將文字置中對齊 */
+    line-height: 50px; /* 垂直居中，與按鈕高度相同 */
+  }
+  
+  .round-button:hover {
+    background-color: #c33298; /* 滑鼠懸停時的背景顏色 */
+  }
